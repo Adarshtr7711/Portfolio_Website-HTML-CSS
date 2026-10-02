@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Libre Baskerville", serif;
     padding-left:12%;
 }
@@ -181,6 +181,9 @@
     #navicon{
         display:none;
     }
+    .navbar{
+        padding-left: 18%;
+    }
 }
 @media only screen and (min-width:501px) and (max-width:767px){
     .profile_image{
@@ -192,6 +195,13 @@
     .logo{
         font-size:17px;
         flex:1 1 0;
+    }
+    .navbar{
+        padding-left: 18%;
+        font-size: 18px;
+    }
+    .navgrid{
+        gap:5%;
     }
 }
 
@@ -209,23 +219,24 @@
 }
 .container_propertie1{
     display:grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 16% 30% 16%;
     padding-right: 20px;
     justify-content:end;
 }
 .container_propertie2{
     display:grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 16% 30% 16%;
     flex-direction: column;
 }
 .cp{
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .container_propertie2 ul{
     display:grid;
     padding-left:20px;
-    align-items: center;
+    align-items: start;
 }
 .container_propertie1 h3{
     font-size: 30px;
@@ -242,7 +253,7 @@
     display:flex;
     flex-direction: row;
     justify-content: start;
-    align-items: center;
+    align-items: start;
 }
 
 /* about-information @media screen  */
@@ -283,6 +294,12 @@
     }
     .container_propertie2 .cp{
         align-items: center;
+    }
+    .container_propertie2 .cp2{
+        align-items: start;
+    }
+    .container_propertie2 .cp3{
+        align-items: start;
     }
 }
 
