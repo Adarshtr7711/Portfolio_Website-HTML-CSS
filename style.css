@@ -255,6 +255,9 @@
     justify-content: start;
     align-items: start;
 }
+.container_propertie2 .cp2{
+    padding-top: 7px;
+}
 
 /* about-information @media screen  */
 
@@ -297,6 +300,7 @@
     }
     .container_propertie2 .cp2{
         align-items: start;
+        padding-top: 4px;
     }
     .container_propertie2 .cp3{
         align-items: start;
